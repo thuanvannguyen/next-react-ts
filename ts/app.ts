@@ -52,3 +52,15 @@ let testStringOrNumberArray: (string | number)[];
 
 testStringOrNumberArray = [1, "two", 3];
 
+//// Ex-6
+let testAny: any;
+
+testAny = 12;
+testAny = "Hello";
+testAny = true;
+testAny = [true];
+testAny = {};
+
+let testAnyArray: any[];
+
+testAnyArray = [1, "two", false, []];
